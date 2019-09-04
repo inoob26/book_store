@@ -1,0 +1,44 @@
+{
+    "books": [
+        {
+            "id": 0,
+            "name": "Flask Web Development",
+            "author": "Miguel Grinberg",
+            "year": "2014",
+            "preview": "flask_web_dev.jpg",
+            "publisher": "O'Reilly Media",
+            "pages": 258,
+            "description": "Take full creative control of your web applications with Flask, the Python-based microframework. With this hands-on book, you’ll learn Flask from the ground up by developing a complete social blogging application step-by-step. Author Miguel Grinberg walks you through the framework’s core functionality, and shows you how to extend applications with advanced web techniques such as database migration and web service communication. Rather than impose development guidelines as other frameworks do, Flask leaves the business of extensions up to you. If you have Python experience, this book shows you how to take advantage of that creative freedom. "
+        },
+        {
+            "id": 1,
+            "name": "Building Web Applications with Flask",
+            "author": "Italo Maia",
+            "year": "2015",
+            "preview": "building_web_app_with_flask.jpg",
+            "publisher": "Packt Publishing",
+            "pages": 160,
+            "description": "Flask is a powerful web framework that helps you build great projects using your favorite tools. Flask takes the flexible Python programming language and provides a simple template for web development. Once imported into Python, Flask can be used to save time building web applications. It goes against the flow with the microframework concept, leaving most of the architecture choices to the developer. Through its great API, extensions, and powerful patterns, Flask helps you create simple projects in minutes and complex ones as soon as possible. From the beginning, Building Web Applications with Flask shows you how to utilize Flask's concepts, extensions, and components to create engaging, full-featured web projects. You'll learn how to properly handle forms using WTForms, devise convenient templates with Jinja2 tags and macros, use NoSQL and SQL databases to store user data, test your projects with features and unit tests, create powerful authentication and user authorization, as well as administrative interfaces with ease, and more. As Flask does not enforce an architectural recipe, neither do we! This book makes no coding assumptions on how you should code, leaving you free to experiment."
+        },
+        {
+            "id": 2,
+            "name": "Mastering Flask",
+            "author": "Jack Stouffer",
+            "publisher": "Packt Publishing",
+            "year": 2015,
+            "preview": "mastering_flask.jpg",
+            "pages": 288,
+            "description": "Flask is a library that allows programmers to create web applications in Python. Flask is a micro-framework that boasts a low learning curve, a large community, and the power to create complex web apps. However, Flask is easy to learn but difficult to master. Starting from a simple Flask app, this book will walk through advanced topics while providing practical examples of the lessons learned. After building a simple Flask app, a proper app structure is demonstrated by transforming the app to use a Model-View-Controller (MVC) architecture. With a scalable structure in hand, the next chapters use Flask extensions to provide extra functionality to the app, including user login and registration, NoSQL querying, a REST API, an admin interface, and more. Next, you'll discover how to use unit testing to take the guesswork away from making sure the code is performing as it should. The book closes with a discussion of the different platforms that are available to deploy a Flask app on, the pros and cons of each one, and how to deploy on each one."
+        },
+        {
+            "id": 3,
+            "name": "Flask By Example",
+            "author": "Gareth Dwyer",
+            "year": 2016,
+            "preview": "flask_by_example.jpg",
+            "publisher": "Packt Publishing",
+            "pages": 276,
+            "description": "This book will take you on a journey from learning about web development using Flask to building fully functional web applications. In the first major project, we develop a dynamic Headlines application that displays the latest news headlines along with up-to-date currency and weather information. In project two, we build a Crime Map application that is backed by a MySQL database, allowing users to submit information on and the location of crimes in order to plot danger zones and other crime trends within an area. In the final project, we combine Flask with more modern technologies, such as Twitter's Bootstrap and the NoSQL database MongoDB, to create a Waiter Caller application that allows restaurant patrons to easily call a waiter to their table. This pragmatic tutorial will keep you engaged as you learn the crux of Flask by working on challenging real-world applications."
+        }
+    ]
+}
