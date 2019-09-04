@@ -8,15 +8,20 @@ app.config['SECRET_KEY'] = '6\xabQ\x1f\xe8\xf3;\\,sW\x08\xb6\xff\xaecGO9\xadN[\x
 
 @app.route('/')
 def home():
-    return render_template('index.html')
-
-
-@app.route('/get_books')
-def get_books():
     with open("json/books.json", mode='r', encoding='utf-8') as books:
         data = json.load(books)
-    
-    return jsonify(data)
+    return render_template('index.html', books=data['books'])
+
+
+@app.route('/book/<int:book_id>')
+def show_book_details(book_id):
+    with open("json/books.json", mode='r', encoding='utf-8') as books:
+        data = json.load(books)
+        for book in data['books']:
+            if book['id'] == book_id:
+                item = book
+    return render_template("book_detail.html", book=item)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

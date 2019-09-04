@@ -1,12 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Home Page</h1>
-</body>
-</html>
+{% extends "public_template.html" %}
+
+{% block content %} 
+    <div class="container">
+        <div class="row">
+
+            {% for book in books %}
+            <div class="card">
+                <div>
+                    <a href="/book/{{ book['id'] }}"><img class="card-img" src="static/images/{{ book['preview'] }}" /></a>
+                </div>
+                
+                <div class="card-body">
+                    <a href="/book/{{ book['id'] }}"><h3>{{ book['name'] }}</h3></a>
+                    <p>Author: {{ book['author'] }}</p>
+                    <p>Publisher: {{ book['publisher'] }}</p>
+                    <p>Release date: {{ book['year'] }}</p>
+                </div>
+                
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %} 
