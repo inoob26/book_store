@@ -1,4 +1,4 @@
-In this project i wrote book internet store using flask as backend
+## In this project i wrote online bookstore using flask as backend
 
 
 
