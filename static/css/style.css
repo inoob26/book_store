@@ -4,6 +4,20 @@ body{
     overflow-x: hidden;
 }
 
+nav{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #b6b6b6;
+    background-color: #cccccc;
+}
+
+.logo{
+    padding-left: 10px;
+    
+    font-size: 20px;
+    color: #404040;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
